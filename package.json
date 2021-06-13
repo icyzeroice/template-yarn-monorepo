@@ -1,0 +1,14 @@
+{
+  "name": "vite-monorepo-template",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "dev": "cd packages/app-vallina && npm run dev"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
