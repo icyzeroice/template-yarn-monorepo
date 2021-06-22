@@ -1,10 +1,13 @@
 {
   "name": "app-vallina",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build",
     "serve": "vite preview"
+  },
+  "dependencies": {
+    "lib-vallina": "0.1.0"
   },
   "devDependencies": {
     "typescript": "^4.2.3",
