@@ -2,7 +2,7 @@
   "name": "vite-monorepo-template",
   "private": true,
   "scripts": {
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "yarn",
     "dev": "cd packages/app-vallina && npm run dev"
   },
   "devDependencies": {

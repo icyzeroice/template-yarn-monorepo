@@ -2,7 +2,10 @@
 
 ## Introduction
 
-We use yarn workspace to manage packages and lerna to publish
+We use:
+
+- `yarn` :: manage packages
+- `lerna` :: publish packages
 
 
 ## Installation
