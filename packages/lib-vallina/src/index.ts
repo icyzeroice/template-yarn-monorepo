@@ -1,3 +1,3 @@
-export const methodA = () => console.log('method A')
-
-export const methodB = () => console.log('method B')
+export const timeline = () => {
+  return Date.now()
+}
