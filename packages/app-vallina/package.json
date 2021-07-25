@@ -7,7 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "lib-vallina": "0.1.0"
+    "lib-vallina": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^4.2.3",

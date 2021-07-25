@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "bootstrap": "yarn",
-    "dev": "cd packages/app-vallina && npm run dev"
+    "dev": "yarn workspace app-vallina run dev"
   },
   "devDependencies": {
     "lerna": "^4.0.0"

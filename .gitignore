@@ -11,6 +11,12 @@ package-lock.json
 yarn.lock
 
 # Yarn 2
-.yarn
-.yarnrc.yml
-.pnp.js
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.yarn/*
+# !.yarn/cache
+# !.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+# !.yarn/versions
+.pnp.*
