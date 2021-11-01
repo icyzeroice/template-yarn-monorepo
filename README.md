@@ -4,13 +4,10 @@
 
 We use:
 
-- `yarn` :: manage packages
-- `lerna` :: publish packages
+- `yarn` :: manage packages to act monorepos
 
-
-## Installation
+## Bootstrap
 
 ```
 $ yarn
 ```
-
