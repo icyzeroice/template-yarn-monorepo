@@ -10,7 +10,7 @@
     "lib-vallina": "workspace:*"
   },
   "devDependencies": {
-    "typescript": "^4.4.4",
-    "vite": "^2.6.13"
+    "typescript": "^4.5.5",
+    "vite": "^2.7.13"
   }
 }
