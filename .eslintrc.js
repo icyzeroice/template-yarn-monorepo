@@ -18,5 +18,7 @@ module.exports = {
     'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
+    // 禁用 export default
+    'import/no-default-export': 'error',
   },
 }
