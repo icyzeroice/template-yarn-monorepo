@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "postinstall": "husky install",
     "bootstrap": "yarn"
   },
   "workspaces": [
@@ -9,14 +10,18 @@
   ],
   "packageManager": "yarn@3.2.0",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.22.0",
-    "@typescript-eslint/parser": "^5.22.0",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
     "@yarnpkg/sdks": "^3.0.0-rc.4",
-    "eslint": "^8.15.0",
-    "eslint-config-standard": "^17.0.0",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "typescript": "^4.6.4"
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.2"
   }
 }
