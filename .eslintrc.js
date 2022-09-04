@@ -21,4 +21,12 @@ module.exports = {
     // 禁用 export default
     'import/no-default-export': 'error',
   },
+  overrides: [
+    {
+      files: './**/vite.config.ts',
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
+  ],
 }
